@@ -1,6 +1,6 @@
-package loan.repayment;
+package loan.repayment.account;
 
-import org.hamcrest.CoreMatchers;
+import loan.repayment.account.SavingsAccount;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;

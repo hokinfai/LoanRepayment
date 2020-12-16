@@ -1,14 +1,14 @@
-package loan.repayment;
+package loan.repayment.account;
 
-public class CurrentAccount {
-    private double interestRate = 0.0007;
+public class SavingsAccount {
+    private double interestRate = 0.003;
     private double balance;
 
-    public CurrentAccount(double balance) {
+    public SavingsAccount(double balance) {
         this.balance = balance;
     }
 
-    public CurrentAccount() {
+    public SavingsAccount() {
     }
 
     public double getBalance() {
@@ -22,4 +22,5 @@ public class CurrentAccount {
     public void makeDeposit(double amount) {
         balance += amount;
     }
+
 }
